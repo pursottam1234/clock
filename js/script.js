@@ -1,8 +1,8 @@
 function updateClock(){
     var currentTime = new Date();
-    var hours = currentTime.getUTCHours();
-    var minutes = currentTime.getUTCMinutes();
-    var seconds = currentTime.getUTCSeconds();
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
   
     hours = (hours < 10 ? "0" : "") + hours;
     minutes = (minutes < 10 ? "0" : "") + minutes;
