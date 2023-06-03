@@ -1,0 +1,18 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    background-image: url('/img/20160817020854_IMG_7560.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #clock {
+    font-size: 100px;
+    color: rgb(31, 31, 31);
+    
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
