@@ -2,19 +2,56 @@
   margin: 0;
   padding: 0;
 }
-.clock-container {
-  display: flex;
-  justify-content: center;
-  align-items: top;
-  height: 100vh;
+body{
   background-image: url("../img/20160817020854_IMG_7560.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* include navbar css */
+.navbar{
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 12px;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 15px auto;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li a{
+  padding: 3px 20px;
+  text-decoration: none;
+  color: white;
+}
+.navbar li a:hover{
+  color: rgb(10, 6, 210);
+}
+.search{
+  float: right;
+  padding: 15px 30px;
+  color: white;
+}
+.navbar input{
+  border: 2px solid black;
+  border-radius: 9px;
+  width: 165px;
+}
+
+/* include clock css */
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+  
+}
 #clock {
   font-size: 100px;
-  color: rgb(27, 51, 107);
+  color: rgb(54, 15, 227);
   font-style: inherit;
   font-family: Arial, Helvetica, sans-serif;
 }
