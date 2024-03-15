@@ -2,52 +2,55 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-image: url("../img/20160817020854_IMG_7560.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* include navbar css */
-.navbar{
-  margin-top: 5px;
-  background-color: black;
-  border-radius: 12px;
+.navbar {
+  margin-top: 20px;
+  background-color: rgb(253, 243, 230);
+  border-radius: 40px;
 }
-.navbar li{
+.navbar li {
+  justify-content: center;
+  text-align: center;
   float: left;
   list-style: none;
-  margin: 15px auto;
+  margin: 40px auto;
 }
-.navbar ul{
+.navbar ul {
   overflow: auto;
 }
-.navbar li a{
-  padding: 3px 20px;
+.navbar li a {
+  font-size: 22px;
+  padding: 40px 50px;
   text-decoration: none;
-  color: white;
+  color: rgb(19, 2, 2);
 }
-.navbar li a:hover{
-  color: rgb(10, 6, 210);
+.navbar li a:hover {
+  color: rgb(28, 6, 97);
+  text-decoration: underline;
 }
-.search{
+.search {
   float: right;
   padding: 15px 30px;
   color: white;
 }
-.navbar input{
-  border: 2px solid black;
-  border-radius: 9px;
-  width: 165px;
+.navbar img {
+  /* border-radius: 50px; */
+  width: 70px;
 }
 
 /* include clock css */
 .clock-container {
   display: flex;
-  justify-content: center;
-  align-items: top;
+  justify-content: right;
+  align-items: center;
+  margin-right: 20px;
   height: 100vh;
-  
 }
 #clock {
   font-size: 100px;
